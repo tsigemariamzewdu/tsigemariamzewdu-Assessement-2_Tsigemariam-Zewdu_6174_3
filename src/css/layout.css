@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 250px;
+}
+
+.header-btns {
+    display: flex;
+}
+
+header p {
+    margin-left: 120px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 120px;
+    left: 150px;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    width: 400px;
+    height: 80px;
+    z-index: 1000;
+    margin-left: 200px;
+    position: relative;
+    top: 40px;
+}
+
+.container {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+    width: 400px;
+    height: 250px;
+}
+
+.single-component {
+    width: 400px;
+    height: 700px;
+    position: relative;
+    left: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); /* Light gray shadow */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+
+.single-component p {
+    margin: 20px;
+    font-size: 18px;
+   
+}
+
+aside {
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    left: 900px;
+    top: 200px;
+}
+
+.aside-menu {
+    display: inline;
+}
+
+footer .first-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 250px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.conatct-footer {
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    display: inline;
+    text-transform: capitalize;
+}
+
+.contact-ul {
+    display: block;
+    margin-top: -100px;
+}
+
+.last-footer {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+}
+
+.footer-nav {
+    display: flex;
+    margin-left: 400px;
+    margin-top: -90px;
+}
+
+.about-us {
+    width: 900px;
+    margin: 30px;
+    text-align: justify;
+    line-height: 1.4;
+}
+.about h3{
+    position: relative;
+    top: 20px;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
+
+.about-content img {
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+form {
+    width: 600px;
+    height: 600px;
+    margin-left: 200px;
+}
+
+input {
+    width: 600px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.contact-entry{
+    position: relative;
+    left: 100px;
+    top: 10px;
+    width: 700px;
+    margin-bottom: 50px;
+}
+.submit-btn{
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+}
